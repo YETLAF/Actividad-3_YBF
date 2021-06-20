@@ -1,0 +1,39 @@
+import Foundation
+
+//tipos de datos
+var int = 1 //numero entero
+var dec = 3.2 //numero decimal
+var cadena:String = "Hello world" //cadena de texto explicita
+var cadena1 = "Goodbye World" //cadena de texto inferida
+
+cadena = "Hello" //tipo de dato string
+int = 1 //numero entero
+
+//Arreglos
+var numbers:Array<Int> = Array <Int>() // Arreglo de numeros del 1 al 10
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+numbers.append(4)
+numbers.append(5)
+numbers.append(6)
+numbers.append(7)
+numbers.append(8)
+numbers.append(9)
+numbers.append(10)
+
+print("Números:\(numbers)")
+
+//Diccionarios
+
+let diasSemana = [ //diccionario con la relacion numero día
+    "Lunes": 1,
+    "Martes": 2,
+    "Miércoles": 3,
+    "Jueves": 4,
+    "Viernes": 5,
+    "Sábado": 6,
+    "Domingo": 7,
+]
+
+print("Dias de la semana:\(diasSemana)")
